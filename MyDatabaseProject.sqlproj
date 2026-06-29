@@ -7,4 +7,13 @@
     <ModelCollation>1033, CI</ModelCollation>
     <ProjectGuid>7406167D-795A-4890-B605-E35D2E2F5728</ProjectGuid>
   </PropertyGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeploy.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Remove="Scripts\PostDeployment\seed-statuses.sql" />
+    <None Include="Scripts\PostDeployment\seed-statuses.sql" />
+    <Build Remove="Scripts\PostDeployment\seed-regions.sql" />
+    <None Include="Scripts\PostDeployment\seed-regions.sql" />
+  </ItemGroup>
 </Project>
