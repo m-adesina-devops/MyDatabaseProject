@@ -1,0 +1,17 @@
+{
+    "ConnectionStrings": {
+        "TestDatabase": "Server=localhost;Database=MyDatabase_Test;Trusted_Connection=True;"
+    },
+    "TestSettings": {
+        "RunIntegrationTests": true,
+        "RunUnitTests": true,
+        "FailOnError": true,
+        "TimeoutSeconds": 60
+    },
+    "DataReset": {
+        "RunReset": true,
+        "ResetScripts": [
+            "Scripts\\reset-test-data.sql"
+        ]
+    }
+}
