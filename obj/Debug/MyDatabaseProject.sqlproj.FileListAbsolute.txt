@@ -1,5 +1,0 @@
-C:\Users\Michael Adesina\Projects\MyDatabaseProject\bin\Debug\MyDatabaseProject.dacpac
-C:\Users\Michael Adesina\Projects\MyDatabaseProject\obj\Debug\Model.xml
-C:\Users\Michael Adesina\Projects\MyDatabaseProject\obj\Debug\refactor.xml
-C:\Users\Michael Adesina\Projects\MyDatabaseProject\obj\Debug\postdeploy.sql
-C:\Users\Michael Adesina\Projects\MyDatabaseProject\obj\Debug\predeploy.sql
